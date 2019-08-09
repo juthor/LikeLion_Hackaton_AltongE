@@ -11,7 +11,9 @@
 
 <form action="{% url 'login' %}" method="POST">
     {% csrf_token %}
-    {{form}}
+    Username : {{ form.username }}
+    <br><br>
+    Password : {{ form.password }}
     <br><br>
     <input type="submit" name="" value="Login" class="btn btn-primary">
 </form>
