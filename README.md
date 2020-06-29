@@ -7,4 +7,4 @@
 
 ## 다영
 
-## 현주
+## </br>[김현주] (https://github.com/juthor)
